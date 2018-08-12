@@ -1691,7 +1691,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #3FC380;
+  background-color: rgba(4, 147, 114, 0.76);
   color: #FFFFFF;
 }
 
@@ -1706,7 +1706,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #fa7a50;
+  background-color: #rgba(4, 147, 114, 0.76);
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -1739,13 +1739,13 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f96332;
-  border-color: #f96332;
+  background-color: rgba(4, 147, 114, 0.76);
+  border-color: rgba(4, 147, 114, 0.76);
 }
 
 .btn-primary.btn-simple {
-  color: #f96332;
-  border-color: #f96332;
+  color: rgba(4, 147, 114, 0.76);
+  border-color: rgba(4, 147, 114, 0.76);
 }
 
 .btn-primary.btn-simple:hover,
@@ -1766,7 +1766,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.btn-link {
-  color: #3FC380;
+  color: rgba(4, 147, 114, 0.76);
 }
 
 .btn-primary.btn-link:hover,
@@ -1780,7 +1780,7 @@ fieldset[disabled] .btn-primary.active {
 .show>.btn-primary.btn-link.dropdown-toggle,
 .show>.btn-primary.btn-link.dropdown-toggle:focus,
 .show>.btn-primary.btn-link.dropdown-toggle:hover {
-  background-color: transparent;
+  background-color: rgba(4, 147, 114, 0.76);
   color: rgba(63, 195, 128, 0.78);
   text-decoration: none;
   box-shadow: none;
@@ -7202,50 +7202,7 @@ img {
 
 /*# sourceMappingURL=kit-free.css.map */
 
-#logo {
-    height: auto;
-    width: 20%;
-    border-radius: 20%;
-}
 
-.page-header-image {
-    height: 100%;
-    width: auto;
-}
-
-.t {
-    font-size: 10rem;
-    font-family: "Libre Baskerville";
-    margin-top: 8rem;
-    background: -webkit-linear-gradient(90deg, #333, #ddd, #fff, #333);
-    background: linear-gradient(90deg, #333, #ddd, #fff, #333);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    background-size: 400%;
-    animation: t 20s infinite linear;
-    transition: all 1s;
-}
-
-@keyframes t {
-     0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 400%;
-    }
-}
-
-.email-btn {
-    background-color: #049372;
-    transition: all .3s;
-}
-.email-btn:hover {
-    background-color: rgba(4, 147, 114, 0.76);
-    transform: translateY(-3px);
-    color: #000;
-}
 
 
 

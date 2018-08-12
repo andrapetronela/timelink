@@ -1,0 +1,49 @@
+#logo {
+    height: auto;
+    width: 20%;
+    border-radius: 20%;
+}
+
+.page-header-image {
+    height: 100%;
+    width: auto;
+}
+
+.t {
+    font-size: 10rem;
+    font-family: "Libre Baskerville";
+    margin-top: 8rem;
+    background: -webkit-linear-gradient(90deg, #333, #ddd, #fff, #333);
+    background: linear-gradient(90deg, #333, #ddd, #fff, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 400%;
+    animation: t 20s infinite linear;
+    transition: all 1s;
+}
+
+@keyframes t {
+     0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+.email-btn:link,
+.email-btn:visited {
+    background-color: #049372;
+    transition: all .3s;
+    border: none;
+}
+.email-btn:hover,
+.email-btn:active {
+    background-color: rgba(4, 147, 114, 0.76);
+    transform: translateY(-3px);
+    color: #000;
+    
+}
