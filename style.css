@@ -1,3 +1,11 @@
+
+
+#particle {
+    position: absolute;
+    transform: translate(-20%, -50%);
+    height: 90vh;
+}
+
 #logo {
     height: auto;
     width: 20%;
