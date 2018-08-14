@@ -2,7 +2,7 @@
 
 #particle {
     position: absolute;
-    transform: translate(-20%, -50%);
+    transform: translate(-20%, -1%);
     height: 90vh;
 }
 
@@ -21,8 +21,8 @@
     font-size: 10rem;
     font-family: "Libre Baskerville";
     margin-top: 8rem;
-    background: -webkit-linear-gradient(90deg, #333, #ddd, #fff, #333);
-    background: linear-gradient(90deg, #333, #ddd, #fff, #333);
+    background: -webkit-linear-gradient(90deg, #674172, #913D88, #A2DED0, #68C3A3, #913D88, #674172);
+    background: linear-gradient(90deg, #674172, #913D88, #A2DED0, #68C3A3, #913D88, #674172);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,11 +41,66 @@
     }
 }
 
+.timelink {
+     background: -webkit-linear-gradient(90deg, #674172, #913D88, #A2DED0, #68C3A3, #913D88, #674172);
+    background: linear-gradient(90deg, #913D88, #A2DED0, #913D88);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    animation: moveLeft 1.5s ease;
+    transition: all .3s;
+}
 
+@keyframes moveLeft {
+    0% { transform: translateY(18px);}
+    50% { transform: translateY(-18px);}
+    100% { transform: translateY(0px);}
+}
+.about-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.55)),
+        url(clock.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-heading {
+    display: block;
+    padding-top: 4rem;
+    background: -webkit-linear-gradient(170deg, #913D88, #674172, #A2DED0, #2ABB9B, #913D88);
+    background: linear-gradient(170deg, #913D88, #674172, #A2DED0, #2ABB9B, #913D88);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: all .5s;
+    backface-visibility: hidden;
+}
+
+.about-heading:hover {
+    animation: shake .5s linear infinite;
+}
+@keyframes shake{
+    0%,90% { transform: translateX(-10px);}
+    20%,80% { transform: translateX(10px);}
+    40%,60% { transform: translateX(-5px);}
+  
+    100% { transform: translateX(5px);}
+}
+
+.product-description {
+    display: block;
+    padding-top: 25rem;
+    margin: 0 auto;
+    width: 50vw;
+    color: rgba(255, 255, 255, 0.82);
+}
 .email-btn:link,
 .email-btn:visited {
     background-color: #049372;
-    transition: all .3s;
+    transition: transform .5s;
     border: none;
 }
 .email-btn:hover,
@@ -54,4 +109,14 @@
     transform: translateY(-3px);
     color: #000;
     
+}
+.email-heading {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.heart {
+    color: #CF000F;
+    text-align: center;
 }
