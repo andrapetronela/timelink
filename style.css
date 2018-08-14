@@ -79,23 +79,13 @@
     backface-visibility: hidden;
 }
 
-.about-heading:hover {
-    animation: shake .5s linear infinite;
-}
-@keyframes shake{
-    0%,90% { transform: translateX(-10px);}
-    20%,80% { transform: translateX(10px);}
-    40%,60% { transform: translateX(-5px);}
-  
-    100% { transform: translateX(5px);}
-}
 
 .product-description {
     display: block;
     padding-top: 25rem;
     margin: 0 auto;
     width: 50vw;
-    color: rgba(255, 255, 255, 0.82);
+    color: rgba(255, 255, 255, 0.97);
 }
 .email-btn:link,
 .email-btn:visited {
@@ -119,4 +109,11 @@
 .heart {
     color: #CF000F;
     text-align: center;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.94);
+}
+
+::selection {
+    background-color: rgba(4, 147, 114, 0.76);
 }
