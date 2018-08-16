@@ -8,7 +8,7 @@
 
 #logo {
     height: auto;
-    width: 20%;
+    width: 15%;
     border-radius: 20%;
 }
 
@@ -16,7 +16,9 @@
     height: 100%;
     width: auto;
 }
-
+.navbar {
+    background-color: #913D88;
+}
 .t {
     font-size: 10rem;
     font-family: "Libre Baskerville";
@@ -68,7 +70,8 @@
 
 .about-heading {
     display: block;
-    padding-top: 4rem;
+    text-transform: uppercase;
+    font-size: 1.7rem;
     background: -webkit-linear-gradient(170deg, #913D88, #674172, #A2DED0, #2ABB9B, #913D88);
     background: linear-gradient(170deg, #913D88, #674172, #A2DED0, #2ABB9B, #913D88);
     -webkit-background-clip: text;
@@ -82,7 +85,7 @@
 
 .product-description {
     display: block;
-    padding-top: 25rem;
+    padding-top: 5rem;
     margin: 0 auto;
     width: 50vw;
     color: rgba(255, 255, 255, 0.97);
