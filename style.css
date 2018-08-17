@@ -87,9 +87,14 @@
     display: block;
     padding-top: 5rem;
     margin: 0 auto;
-    width: 50vw;
+    width: 60vw;
     color: rgba(255, 255, 255, 0.97);
 }
+
+@media only screen and (max-width: 900px) {
+    .product-description { width: 90vw;}
+} 
+
 .email-btn:link,
 .email-btn:visited {
     background-color: #049372;
