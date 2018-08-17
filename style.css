@@ -122,6 +122,13 @@
     background-color: rgba(0, 0, 0, 0.94);
 }
 
+.photo_credit {
+    text-align: center;
+    font-size: .7rem;
+    display: block;
+    padding-top: 2rem;
+}
+
 ::selection {
     background-color: rgba(4, 147, 114, 0.76);
 }
