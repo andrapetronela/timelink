@@ -1691,8 +1691,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-image: linear-gradient(90deg, #913D88, #A2DED0, #2ABB9B, #a2ded0, #913D88);
-  background-size: 400%;
+  background-color: #2ABB9B;
   color: #FFFFFF;
 }
 
