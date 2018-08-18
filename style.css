@@ -8,8 +8,8 @@
 
 #logo {
     height: auto;
-    width: 10%;
-    border-radius: 20%;
+    width: 12%;
+    border-radius: 30%;
 }
 
 .page-header-image {
@@ -17,17 +17,20 @@
     width: auto;
 }
 .navbar {
-    background-color: #fff;
+    background-color: #BFBFBF;
 }
 
 .nav-icon {
-    color: #555;
+    color: #ECF0F1;
 } 
 
 .nav-icon:hover {
-    color: #a2ded0;
+    color: #68C3A3;
 }
-
+.subtitle {
+    display: block;
+    padding-right: 5rem;
+}
 .t {
     font-size: 10rem;
     font-family: "Libre Baskerville";
@@ -96,7 +99,7 @@
     display: block;
     padding-top: 5rem;
     margin: 0 auto;
-    width: 60vw;
+    width: 45vw;
     color: rgba(255, 255, 255, 0.97);
 }
 
@@ -136,6 +139,9 @@
     font-weight: 400;
     font-size: 1.3rem;
     color: #333;
+}
+.section-basic {
+    background-color: #F2F1EF;
 }
 
 .heart {
