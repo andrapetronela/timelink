@@ -5,6 +5,11 @@
     transform: translate(-20%, -1%);
     height: 90vh;
 }
+@media only screen and (max-width: 900px) {
+    #particle {
+        display: none;
+    }
+}
 
 #logo {
     height: auto;
