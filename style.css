@@ -1,4 +1,6 @@
-
+body {
+    font-family: Montserrat;
+}
 
 #particle {
     position: absolute;
