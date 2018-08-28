@@ -97,7 +97,7 @@
     transition: all .4s;
 }
 .img-about img:hover {
-    filter: brightness(1);
+    filter: brightness(.9);
 }
 
 .about-heading {
