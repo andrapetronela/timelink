@@ -93,7 +93,7 @@
 .img-about img {
     height: auto;
     width: 100%;
-    filter: brightness(.6);
+    filter: brightness(.4);
     transition: all .4s;
 }
 .img-about img:hover {
@@ -120,16 +120,13 @@
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     font-size: 1.4rem;
-    margin: auto;
-    padding: 2rem;
     color: rgba(255, 255, 255, 0.87);
     transition: all .8s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.product-description:hover {
-    background: #eee;
-    color: #111;
-}
 
 .main h3 {
     font-size: 2.8rem;
