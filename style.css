@@ -79,21 +79,25 @@
 .about-section {
     width: 100vw;
     height: auto;
+    background-color: #000;
     display: grid;
     grid-template-columns: 1.5fr 1.3fr;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .about-section {
         display: inline-grid;
         grid-template-columns: 1fr;
     }
-    .img-about img {
-        width: 50%;
-    }
+    
 }
 .img-about img {
     height: auto;
     width: 100%;
+    filter: brightness(.6);
+    transition: all .4s;
+}
+.img-about img:hover {
+    filter: brightness(1);
 }
 
 .about-heading {
@@ -118,6 +122,12 @@
     font-size: 1.4rem;
     margin: auto;
     padding: 2rem;
+    color: rgba(255, 255, 255, 0.87);
+    transition: all .8s;
+}
+
+.product-description:hover {
+    background: #eee;
     color: #111;
 }
 
