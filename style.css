@@ -137,10 +137,11 @@
 .gallery-cont {
     display: grid;
     grid-gap: 1rem;
-    padding: 0 .5rem;
+    padding: 0 1.5rem;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(5, 7vw);
+    grid-template-rows: auto;
 }
+
 
 .gallery__img {
   width: 100%;
@@ -166,11 +167,11 @@
   grid-row: 4 / span 2; }
 
 .gallery-4 {
-  grid-column: 4 / span 3;
+  grid-column: 4 / span 2;
   grid-row: 1 / span 1; }
 
 .gallery-5 {
-  grid-column: 7 / span 1;
+  grid-column: 6 / span 2;
   grid-row: 1 / span 1;}
 
 .gallery-6 { 
