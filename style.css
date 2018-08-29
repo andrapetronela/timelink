@@ -127,6 +127,7 @@
     justify-content: center;
     align-items: center;
     padding: 4.5rem;
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -211,6 +212,33 @@
     filter: none;
 }
 
+
+.contact-sign {
+    position: relative;
+    padding: 9rem 5rem;
+    margin: 5rem;
+    border: 1px solid #111;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact-sign {
+        border: none;
+    }
+}
+#email-button {
+    background: transparent;
+    color: #CF000F;
+    border: 1px solid #111;
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding: 1.2rem 4rem;
+    transition: all .4s;
+}
+
+
 .email-btn:link,
 .email-btn:visited {
     background: #913D88;
@@ -218,13 +246,13 @@
     transition: transform .5s;
     border: none;
 }
-.email-btn:hover,
-.email-btn:active {
-    background-image: linear-gradient(90deg, #913D88, #A2DED0, #2ABB9B, #a2ded0, #913D88);
+#email-button:hover,
+#email-button:active {
+    background-color: #CF000F;
     background-size: 400%;
-    transform: translateY(-3px);
-    color: #000;
     animation: button 20s linear infinite;
+    border: 1px solid transparent;
+    color: #fff;
 }
 
 
@@ -241,9 +269,9 @@
 }
 .email-heading {
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: #111;
-    margin-top: 5rem;
+    margin: 0;
 }
 .section-basic {
     background-color: #F2F1EF; 
