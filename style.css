@@ -82,6 +82,7 @@
     background-color: #000;
     display: grid;
     grid-template-columns: 1.5fr 1.3fr;
+    transition: all .8s;
 }
 @media only screen and (max-width: 800px) {
     .about-section {
@@ -123,8 +124,9 @@
     color: rgba(255, 255, 255, 0.87);
     transition: all .8s;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
 
