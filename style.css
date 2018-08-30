@@ -215,14 +215,36 @@
 
 .contact-sign {
     position: relative;
-    padding: 9rem 5rem;
-    margin: 5rem;
+    padding: 9rem 0rem;
+    margin: 5rem 12rem;
     border: 1px solid #111;
+    transition: all 4s;
+    animation: color 8s infinite alternate;
 }
 
 @media only screen and (max-width: 900px) {
     .contact-sign {
         border: none;
+        padding: 2rem;
+        margin: 2rem .5rem;
+    }
+}
+@keyframes color {
+    0% {
+        border: 1px solid #111;
+    }
+    20% {
+        border: 1px solid #674172;
+    }
+    
+    40% {
+        border: 1px solid #A2DED0;
+    }
+    60% {
+        border: 1px solid #2ABB9B
+    }
+    100% {
+        border: 1px solid #913D88;
     }
 }
 #email-button {
@@ -236,6 +258,7 @@
     display: inline-block;
     padding: 1.2rem 4rem;
     transition: all .4s;
+    animation: color 8s infinite alternate;
 }
 
 
